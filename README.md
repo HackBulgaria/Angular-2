@@ -12,7 +12,7 @@ The course is going to be 4 weeks long and contains 8 lectures.
 
 1. Introduction and concepts of Angular 2. Introduction to Typescript, Components, templates, styles. Build-in directives
 2. Component Inputs, Outputs, Custom Events.
-3. Component Lifecycle, DOM manipulation.
+3. Component Lifecycle.
 4. Forms and validations.
 5. Observables (RxJS) and Services.
 6.  HTTP and Routing.
