@@ -20,3 +20,6 @@ The course is going to be 4 weeks long and contains 8 lectures.
 8. Angular CLI, Testing and Webpack introduction.
 
 You can apply at HackBulgaria's website:https://hackbulgaria.com/courses/
+
+##Lectures:
+[Lecture 1](https://speakerdeck.com/iliaidakiev/angular-2-1)
