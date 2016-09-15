@@ -23,3 +23,4 @@ You can apply at HackBulgaria's website:https://hackbulgaria.com/courses/
 
 ##Lectures:
 [Lecture 1](https://speakerdeck.com/iliaidakiev/angular-2-1)
+[lecture_2](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week1-dot-2)
