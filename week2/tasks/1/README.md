@@ -22,3 +22,14 @@ Create a curstom directive forEach
 
 Create a module with both directives that can be used just like the FormsModule.
 When the module is imported all the directives inside can be used in our application
+
+# Task 4 
+
+Modify Task1 to use * instead of templates
+
+```
+<div [ifElseStar]="cond">
+    <div *ifTrueCase>The truth!</div>
+    <div *ifFlaseCase>The lie!</div>
+</div>
+```
