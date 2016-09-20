@@ -12,7 +12,7 @@ class Letter {
 @Component({
     selector: 'word',
     template: `
-    <div id="word-view">
+    <div id="word-view" *ngIf="!noWordsInDatastore">
         <ul>
             <li *ngFor="let letter of currentWordArray; let i = index;">
                 <span *ngIf="currentHiddenPositions.indexOf(i) === -1">{{letter}}</span>
@@ -30,8 +30,12 @@ class Letter {
     <div id="buttons" *ngIf="showNextBtn">
         <button (click)="loadNextWord()">Next Word</button>
     </div>
+    <div *ngIf="noWordsInDatastore" class="error">Word datastore is empty!</div>
     `,
     styles: [`
+        .error {
+            color:red;
+        }
         div#word-view ul li { 
             display: inline-block; 
             margin-left: 5px; 
