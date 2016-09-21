@@ -1,18 +1,35 @@
-# Task 1 --- Word Game
+# Task 1
 
-Create class DataSource containing an array with different words and another containing all the letters in the alphabet
-
-Create a component WordGame and import the DataSource. When the component is constructed a random word from the DataSource should be picked.
-Another random number N, should be chosen that will represent the number of hidden letters from that word.
-Present the word to the user with the hidden N random letters represented as `_`
+Create a custom directive ifElse
 
 ```
-Example (N = 3):
+<div [ifElse]="cond">
+    <template #true>Its True</template>
+    <template #false>Its False</template>
+</div> 
+``` 
+# Task 2 
 
-Word: abstract
-Display: `a__t_act`
-Word Bank: z, a, t, b, q, s, y, r 
+Create a curstom directive forEach
+
+```
+<div *myFor="[1,2,3]; let theItem = item;">
+    This is cool {{theItem}}
+</div>
 ```
 
-The user has to pick from 8 letters (the hidden ones and (8 - N) randomly picked from the alphabet) and try to guess the word.
-When a correct letter is selected it should be marked in a proper way. If all letters are correctly chosen a button should appear so the user can continue with the next word.
+# Task 3
+
+Create a module with both directives that can be used just like the FormsModule.
+When the module is imported all the directives inside can be used in our application
+
+# Task 4 
+
+Modify Task1 to use * instead of templates
+
+```
+<div [ifElseStar]="cond">
+    <div *ifTrueCase>The truth!</div>
+    <div *ifFlaseCase>The lie!</div>
+</div>
+```
