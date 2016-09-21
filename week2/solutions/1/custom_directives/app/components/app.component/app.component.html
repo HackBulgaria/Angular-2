@@ -1,0 +1,21 @@
+<div [ifElse]="cond1">
+    <template #true>The condition is true</template>
+    <template #false>The condition is false</template>
+</div>
+<br>
+<button (click)="cond1 = !cond1">Toggle condition</button>
+
+
+<ul>
+    <li *loopThrough="items;let currentItem = item;">
+        The current item name is: {{currentItem.name}} and the id is: {{currentItem.id}}
+    </li>
+</ul>
+
+
+<div [ifElseStar]="cond2">
+    <div *ifTrueCase>In case of truth</div>
+    <div *ifFalseCase>In case of lie</div>
+</div> 
+
+<button (click)="cond2 = !cond2">Toggle condition</button>
