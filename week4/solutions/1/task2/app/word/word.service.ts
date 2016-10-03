@@ -39,7 +39,7 @@ export class WordService {
         else observable = Observable.from(this.words);
         /* 
             We want to make sure that if filter filters out every one from the words
-            there is at least one value (str) that will go trough so an empty array set
+            there is at least one value (str) that will go trough so an empty array can be sent
         */
         return observable.startWith(str).map((val:string) => val.toLowerCase()).filter(filterFunc).scan((prev, item, index) => {
             if(index === 0) return prev;
