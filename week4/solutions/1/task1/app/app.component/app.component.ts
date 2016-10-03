@@ -15,7 +15,6 @@ import { Subscription } from 'rxjs/Subscription';
     providers: [ WordService ]
 }) export class App {
     currentWord:string;
-    currentWord2:string;
     error:Error;
     
     private getRandomNumber(min:number, max:number):number {
