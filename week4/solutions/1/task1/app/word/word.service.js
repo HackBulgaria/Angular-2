@@ -35,14 +35,11 @@ var WordService = (function () {
     WordService.prototype.newWordSubscription = function (randomGenerator) {
         var _this = this;
         return new Observable_1.Observable(function (subscriber) {
-            var loadNextWord = function () {
-                var index = randomGenerator(0, _this.words.length);
-                subscriber.next(_this.words[index]);
-            };
+            var loadNextWord = function () { return subscriber.next(_this._currentWord = _this.words[randomGenerator(0, _this.words.length)]); };
             if (!_this.words) {
                 _this._http.get('/data.json').map(function (res) {
                     _this.words = res.json() || [];
-                    subscriber.next(_this._currentWord = _this.words[randomGenerator(0, _this.words.length)]);
+                    loadNextWord();
                 }).catch(function (err) { subscriber.error(err); return Observable_1.Observable.throw(err); }).subscribe();
             }
             else

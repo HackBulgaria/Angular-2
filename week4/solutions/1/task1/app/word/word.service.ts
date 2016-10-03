@@ -26,14 +26,11 @@ export class WordService {
 
     newWordSubscription(randomGenerator:(min:number, max:number) => number):Observable<string> {
         return new Observable((subscriber:Subscriber<string>) => {
-            var loadNextWord = () => {
-                var index = randomGenerator(0, this.words.length);
-                subscriber.next(this.words[index]);
-            }
+            var loadNextWord = () => subscriber.next(this._currentWord = this.words[randomGenerator(0, this.words.length)]);
             if(!this.words) { 
                 this._http.get('/data.json').map((res:Response) => { 
-                    this.words = res.json() || []; 
-                    subscriber.next(this._currentWord = this.words[randomGenerator(0, this.words.length)]) 
+                    this.words = res.json() || [];
+                    loadNextWord();
                 }).catch((err) => { subscriber.error(err); return Observable.throw(err); }).subscribe();
             } else loadNextWord();
 
