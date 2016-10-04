@@ -17,7 +17,7 @@ The course is going to be 4 weeks long and contains 8 lectures.
 5. Dependency Injection Overview (Providers), Services. Multi Providers and Template driven custom validators. Custom Form Controls.
 6. Observables (RxJS), HTTP.
 7. Routing and Pipes
-8. Angular CLI, Testing and Webpack introduction.
+8. Workshop.
 
 You can apply at HackBulgaria's website:https://hackbulgaria.com/courses/
 
