@@ -28,6 +28,7 @@ You can apply at HackBulgaria's website:https://hackbulgaria.com/courses/
 [Lecture 4](https://speakerdeck.com/iliaidakiev/angular-2-4) <br>
 [Lecture 5](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week3-dot-2)<br>
 [Lecture 6](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week4-dot-1)<br>
+[Lecture 7](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week4-dot-2)<br>
 
 ##Stuff to read:
 [5 rookie mistakes to avoid with angular](http://angularjs.blogspot.bg/2016/04/5-rookie-mistakes-to-avoid-with-angular.html)
