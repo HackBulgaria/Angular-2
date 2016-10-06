@@ -3,3 +3,8 @@ Start a new project or refactor the old one. Reuse all the Components and Servic
 
 #Task 2
 Create highlight pipe that will be used with the filter input (Task2) that we created the previous time. The pipe should accept two arguments - the current input value and the class that we want to apply. 
+Because we are going to be generating new html we need to use the pipe this way:
+
+```
+<div [innerHTML]="'hello' | highlight:'llo':'red'"></div>
+```
