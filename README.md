@@ -22,10 +22,10 @@ The course is going to be 4 weeks long and contains 8 lectures.
 You can apply at HackBulgaria's website:https://hackbulgaria.com/courses/
 
 ##Lectures:
-[Lecture 1](https://speakerdeck.com/iliaidakiev/angular-2-1) <br>
+[Lecture 1](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week1-dot-1)<br>
 [Lecture 2](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week1-dot-2)<br>
 [Lecture 3](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week2-dot-1)<br>
-[Lecture 4](https://speakerdeck.com/iliaidakiev/angular-2-4) <br>
+[Lecture 4](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week3-dot-1)<br>
 [Lecture 5](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week3-dot-2)<br>
 [Lecture 6](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week4-dot-1)<br>
 [Lecture 7](https://speakerdeck.com/iliaidakiev/angular-2-at-hackbulgaria-week4-dot-2)<br>
