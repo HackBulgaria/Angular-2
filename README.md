@@ -22,3 +22,5 @@ The duration of the course is 5 weeks including 10 lectures:
 08. Multi-providers. Template driven custom validators and Custom Controls.
 09. Routing and Navigation.
 10. Protecting Routes. Lazy Loading. Pipes. Angular 4 and beyond.
+
+You can apply here: https://hackbulgaria.com/courses/angular2-volume2/
