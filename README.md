@@ -17,7 +17,7 @@ The duration of the course is 5 weeks including 10 lectures:
 03. Deep dive into Directives: Dependency Injection (Providers and Injectors), TemplateRef, ViewContainerRef.
 04. Change Detection and Component / Directive Lifecycle.
 05. Functional Programming, Reactive Extensions for JS. Optimizing Anglar Change Detection using RxJS.
-06. The Controlled State Container: ngrx Store (Redux implementation for Angular 2). Optimizing Change Detection using ngrx.
+06. The Controlled State Container: ngrx/store (Reactive Redux implementation for Angular 2) and ngrx/effects. Optimizing Change Detection using ngrx.
 07. Forms and validations.
 08. Multi-providers. Template driven custom validators and Custom Controls.
 09. Routing and Navigation.
