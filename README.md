@@ -21,4 +21,4 @@ The duration of the course is 5 weeks including 10 lectures:
 07. Forms and validations.
 08. Multi-providers. Template driven custom validators and Custom Controls.
 09. Routing and Navigation.
-10. Protecting Routes. Lazy Loading. Pipes
+10. Protecting Routes. Lazy Loading. Pipes. Angular 4 and beyond.
