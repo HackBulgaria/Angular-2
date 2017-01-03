@@ -6,7 +6,7 @@ This course is NOT for beginners - JavaScript experience is required.
 
 Throughout the course we'll be learning Angular 2 fundamentals - setup, components, services, routes, deployment, etc. 
 
-TypeScript will be the language of choice for the building of our applications.
+TypeScript will be the language of choice when we're building our applications.
 
 ## Course Program
 
@@ -22,5 +22,3 @@ The duration of the course is 5 weeks including 10 lectures:
 08. Multi-providers. Template driven custom validators and Custom Controls.
 09. Routing and Navigation.
 10. Protecting Routes. Lazy Loading. Pipes
-
-You can apply here: https://hackbulgaria.com/courses/
