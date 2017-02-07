@@ -1,4 +1,7 @@
 # Week 1.1
+### Lecture
+[Click here](https://www.icloud.com/keynote/0BEk56WtIgTr6FmerHP2xtDuw#1.Introduction)
+### Tasks
 1. Install node & npm
 2. Install git
 3. Install Visual Stuido Code, TSLint & Trailing Space Plugins (Optional)
