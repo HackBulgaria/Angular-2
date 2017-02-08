@@ -1,0 +1,3 @@
+<ul>
+  <li *ngFor="let item of list" (click)="item.toggleChacked()" class="todo" [ngClass]="{ 'completed': item.isChecked }">{{item.getText()}}</li>
+</ul>

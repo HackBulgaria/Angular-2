@@ -1,0 +1,7 @@
+#add-todo {
+  padding: 20px;
+}
+
+#add-todo * {
+  display: inline-block;
+}

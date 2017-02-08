@@ -1,6 +1,6 @@
 # Week 1.1
 ### Lecture
-[Click here](https://www.icloud.com/keynote/0BEk56WtIgTr6FmerHP2xtDuw#1.Introduction)
+[Click here](https://speakerdeck.com/iliaidakiev/1-ng-introduction)
 ### Tasks
 1. Install node & npm
 2. Install git

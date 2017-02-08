@@ -1,0 +1,14 @@
+#filter {
+  width: 100%;
+}
+
+#filter li {
+  display: inline-block;
+  margin: 5px;
+  padding: 20px;
+}
+
+#filter li.active {
+  background-color: rgba(0, 128, 0, 0.57);
+  color: white;
+}
