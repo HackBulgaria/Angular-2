@@ -1,4 +1,9 @@
-# Weel 1.2
+# Week 1.2
+
+# Lecture:
+Click [here](https://speakerdeck.com/iliaidakiev/2-functional-programming-and-rxjs)
+
+# Tasks
 
 ## Using RxJS solve the tasks bellow (use pure functions and separate functionality):
 Use this [link](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/categories.md) if you need help.
