@@ -43,7 +43,7 @@ const users = [{
 ```
 get(url, callback) {
   console.log(`fake get request to ${url}`);
-  setTimeout(() => {
+  const id = setTimeout(() => {
     console.log(`get request JSON response`)
     callback(null, `[{
       "name": "Ivan",
@@ -56,7 +56,11 @@ get(url, callback) {
       "age": 10
     }]`)
   }, 2000);
+  return {
+    cancel: () => clearInterval(id)
+  }
 }
+
 ```
 Using Observables wrap up this get method so we can use it like:
 
@@ -77,10 +81,10 @@ const urls = ['http://domain.com', 'http://domain.bg', 'http://domain.eu']
 3.1.Use the modified dummy get method bellow and make sure you handle the error and present the error message to the user:
 
 ```
-get(url, callback) {
+errorGet(url: string, callback: any) {
   console.log(`fake get request to ${url}`);
-  if(/(.*)\.(bg)/.test(url)) return callback(new Error('Cannot resolve domain .bg'));
-  setTimeout(() => {
+  if(/(.*)\.(bg)/.test(url)) callback(new Error('Cannot resolve domain .bg'));
+  const id = setTimeout(() => {
     console.log(`get request JSON response`)
     callback(null, `[{
       "name": "Ivan",
@@ -93,6 +97,9 @@ get(url, callback) {
       "age": 10
     }]`)
   }, 2000);
+  return {
+    cancel: () => clearInterval(id)
+  };
 }
 ```
 
