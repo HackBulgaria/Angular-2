@@ -60,7 +60,9 @@ get(url, callback) {
 ```
 Using Observables wrap up this get method so we can use it like:
 
-```this.get('url').map(...).map(...).subscribe(...)```
+```
+this.get('url').map(...).map(...).subscribe(...)
+```
 
 The flow should be like: get -> JSON.parse -> modify and use 1.4 to extract names and ages (check let operator)
 
