@@ -64,7 +64,7 @@ Using Observables wrap up this get method so we can use it like:
 this.get('url').map(...).map(...).subscribe(...)
 ```
 
-The flow should be like: get -> JSON.parse -> modify and use 1.4 to extract names and ages (check let operator)
+The flow should be like: get -> JSON.parse -> modify and use 1.4 to extract names and ages
 
 2.2.We have an array of urls. Using the map operator and the modified get from the previous task, simulate getting the data from each urls.
 ```
