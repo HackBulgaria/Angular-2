@@ -1,5 +1,10 @@
 # Week 2
 
+## Lecture
+Click [here](https://speakerdeck.com/iliaidakiev/3-angular-cli-custom-directives-renderer)
+
+## Tasks
+
 1. Create a custom directive called angActive that takes two inputs. The first input is a color that needs to be applied if the second input is true (second input is a predicate).
 
 2. Create a custom directive called angIf that shows the contents of the template if a condition is true and hides it otherwise.
