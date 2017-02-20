@@ -1,0 +1,6 @@
+<ul>
+  <li (click)="setFilterState(0)">Default</li>
+  <li (click)="setFilterState(1)">CompletedOnly</li>
+  <li (click)="setFilterState(2)">All</li>
+</ul>
+{{ model.filterState$ | async }}

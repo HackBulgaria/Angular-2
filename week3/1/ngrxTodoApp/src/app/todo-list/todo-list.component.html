@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let todo of (todos$ | async)">
+    <span>{{todo.text}}</span>
+    <button (click)="toggleTodo(todo)">Toggle checked</button>
+  </li>
+</ul>
+
