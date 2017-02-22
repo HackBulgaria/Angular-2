@@ -23,7 +23,7 @@ export class GridComponent implements OnInit {
   }
 
   next() {
-    if(this.currentPage + 1 > (this.data.length / this.pageSize)) return;
+    if(this.currentPage + 1 > Math.ceil(this.data.length / this.pageSize)) return;
     ++this.currentPage;
   }
 
