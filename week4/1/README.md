@@ -1,7 +1,7 @@
 # Week 4.1
 
 ### Lecture
-[click here](if you want you can take a look into (ng-bootstrap)[someurl] and use a popup for the signup)
+[click here](https://speakerdeck.com/iliaidakiev/7-forms-and-simple-validations)
 
 ### Tasks
 
