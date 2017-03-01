@@ -1,7 +1,7 @@
 # Week 4.2
 
 ### Lecture
-
+[Click here](https://speakerdeck.com/iliaidakiev/8-custom-validations-controls-and-multi-providers)
 ### Tasks
 1. Finish the tasks from last time
 2. Create a custom password validation for the registration form. Password should contain 1 specail symbol (*, _, &).
