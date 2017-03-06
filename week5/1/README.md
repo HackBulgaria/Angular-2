@@ -1,7 +1,7 @@
 # Week 5.1
 
 ### Lecture
-
+[Click here](https://speakerdeck.com/iliaidakiev/9-routing-and-navigation)
 ### Tasks
 
 1. Use the application from last time and create a view where all the registered users are listed.
