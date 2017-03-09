@@ -1,6 +1,7 @@
 # Week 5.2 
 
 ### Lecture
+[Click here](https://speakerdeck.com/iliaidakiev/10-routing-and-navigation-2)
 
 ### Tasks
 
